@@ -1,4 +1,4 @@
-fetch('localhost:5000/products')          
+fetch('https://simple-web-app-example.onrender.com/products')          
     .then(response => response.json())
 .then(data => {
     const tableBody = document.getElementById('table_body');
