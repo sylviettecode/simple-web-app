@@ -68,4 +68,4 @@ def create_product():
 if __name__ == '__main__':
     # Running the API, on port 5000 (it's the
     # default, but this way you can change this):
-    app.run(debug=True, port=5000)
+    app.run(port=5000)
